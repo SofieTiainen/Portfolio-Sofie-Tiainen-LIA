@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Sofie Tiainen</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+
+    
+</head>
+<body>
+    <div class="body-wrapper">
+        <header id="header">
+            <h1 class="delay hidden fade-in">PORTFOLIO</h1>
+            <p class="delay hidden fade-in">SOFIE TIAINEN</p>
+            <p class="delay hidden fade-in">FRONT-END DEVELOPER STUDENT</p>
+            <button class="delay hidden fade-in" onclick="scrollToMain()"><i class="fa-sharp fa-solid fa-circle-arrow-down"></i></button>
+        </header>
+        <main id="main-content">
+            <section class="info-text">
+                <p>Nedan följer de betygsgrundande slutuppgifterna jag har skapat för varje kurs jag hittils läst. <br>
+                    Alla projekt var individuella förutom uppgiften för kursen Front-end Projekt. <br>
+            </section>
+            <section class="projects">
+                <div>
+                    <h2>JAVASCRIPT 1</h2>
+                    <img class="image-fit" src="assets/images/js1.png" alt="#">
+                    <p>I detta projekt skulle ett quiz skapas med följande kriterier: användaren ska kunna se sitt resultat presenterat med antal rätt och en färgbaserad feedback. För betyget VG krävs att frågorna består av en blandning av sant/falskt-påståenden, multiple choice-frågor och checkbox-svar, samt att användaren kan se vilka frågor hen besvarat rätt och felaktigt. Koden ska även följa DRY-principen. <br>
+
+                        <br><strong>Ämnesområden: </strong> grunder i javascript med objekt, array-metoder, funktioner, if/else, loopar, manipulering av DOM:en, inputs, filtrering och sortering av data.</p>
+                    <a href="https://sofietiainen.github.io/Javascript-1-Quiz/"><button>SE PROJEKTET</button></a>
+                        <!-- <button><a href="">SE PROJEKTET</a></button> -->
+                </div>
+                <div>
+                    <h2>JAVASCRIPT 2</h2>
+                    <img class="image-fit" src="assets/images/js2.png" alt="#">
+                    <p>Under denna kurs skulle en applikation skapas för att jämföra olika Star Wars- karaktärer och dess egenskaper med varandra, detta genom API:et https://swapi.dev/. Kriterierna var att jobba med classes och när användaren väljer två karaktärer ska två instanser av denna klass skapas. Man skulle även jämföra karaktärerna med varandra. För VG var kriterierna att skapa metoder i klassen som hämtar ytterligare information som jämför karaktärerna.<br>
+
+                        <br><strong>Ämnesområden: </strong> objektorienterad programmering, fetch + API, dynamiska GET-requests, query parameters, axios, funktionell programmering.</p>
+                        <a href="https://sofietiainen.github.io/StarWarsTrivia/"><button>SE PROJEKTET</button></a>
+                        <!-- <button><a href="">SE PROJEKTET</a></button> -->
+                </div>
+                <div>
+                    <h2>HTML & CSS/SASS</h2>
+                    <img class="image-fit" src="assets/images/html.png" alt="#">
+                    <p>I detta projekt skulle en hemsida skapas för ett påhittat företag med följande kriterier: grafisk profil med färgkoder, typsnitt och logotyp(via Figma). Webbplatsen ska bestå av sidorna start, om oss, tjänster, referenser och kontakt. Semantisk HTML och SASS ska användas. För VG ska sidan skrivas i mobile first och vara full responsiv samt ha tydliga färgkontraster mellan text och bakgrunder enligt WCAG 2.1-kraven. <br>
+
+                        <br><strong>Ämnesområden: </strong> semantisk html, css selectors och specificity, display och position, flexbox, responsivitet och media queries, tillgänglighet, SASS.</p>
+                        <a href="https://sofietiainen.github.io/HTML-SASS-CompanyWebsite/"><button>SE PROJEKTET</button></a>
+                        <!-- <button><a href="">SE PROJEKTET</a></button> -->
+                </div>
+                <div>
+                    <h2>FRONT-END PROJEKT</h2>
+                    <img class="image-fit" src="assets/images/feprojekt.png" alt="#">
+                    <p>I detta projekt skulle vi lära oss att planera och utföra ett realistiskt frontend-projekt med hjälp av agil projektmetodik. Kursens mål var att ta fram en produkt utifrån kravspecifikationer och tidsestimera. Vi fick en app-idé tilldelad och arbetade i grupper om sex personer. Vi använde verktyget Miro för att skapa en User-Journey, Storymap, Taskmapping och genomföra sprintplanering. Vi genomförde också två korta utvecklingssprintar och två Demos för beställaren.
+                        I projektet arbetade jag främst med sökfälts-funktionen och grafen på hourly-vyn av vädret. <br>
+                        
+                        <br><strong>Ämnesområden: </strong> Nätverksanrop med fetch, agil projektmetodik</p>
+                        <a href="https://matildafahlen.github.io/Weather-app-group-B/"><button>SE PROJEKTET</button></a>
+                        <!-- <button><a href="">SE PROJEKTET</a></button> -->
+                </div>
+                <div>
+                    <h2>INTERAKTION MED CMS</h2>
+                    <img class="image-fit" src="assets/images/cms.png" alt="#">
+                    <p>I detta projekt skulle jag utveckla en webbapplikation för bokaffären Book Ducks, där användare kan logga in, betygsätta och spara böcker. Vi arbetade med headless-CMS:et Strapi och kraven inkluderade att skapa ett CMS-gränssnitt för admin att ladda upp böcker. Det skulle finnas funktioner för inloggning och att registrera konto. I inloggat läge skulle funktioner finnas för att betygsätta böcker samt spara böcker i personliga att-läsa listor. För att uppnå VG-nivå krävdes det att admin-gränssnittet skulle erbjuda minst två färgteman på webbplatsen och att profilsidan skulle innehålla en lista över alla betygsatta böcker som användaren kan sortera efter titel, författare och betyg.<br>
+
+                        <br><strong>Ämnesområden: </strong>CMS, node.js, POST-, DELETE- och PUT-request</p>
+                        <!-- <a href="#"><button>SE PROJEKTET</button></a> -->
+                </div>
+                <div>
+                    <h2>GRAFIKVERKTYG</h2>
+                    <img class="image-fit" src="assets/images/grafikverktyg.png" alt="#">
+                    <p>Uppgiften var att i Figma designa en hemsida och paketera underlaget för produktion. Med kriterierna: designen ska bestå av minst 3 sidor med fungerande prototyp-länkar mellan sidorna. Specifikation av de färger, typsnitt, skuggor mm. som används i designen. För VG krävdes det att bilderna var optimerade för bästa prestanda i lämpligt filformat med fallback-alternativ, tydlig uppdelning och benämning av vyer, komponenter, färger, typografistilar mm. samt att element som används upprepade gånger i designen ska vara instanser av komponenter.</p>
+                    <!-- <a href="#"><button>SE PROJEKTET</button></a> -->
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
