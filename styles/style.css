@@ -51,7 +51,7 @@ div.body-wrapper header {
 div.body-wrapper header h1, div.body-wrapper header p {
   margin-top: 20px;
 }
-div.body-wrapper header p {
+div.body-wrapper header p, div.body-wrapper header h2 {
   font-family: "Merriweather", serif;
   letter-spacing: 2px;
   font-size: 12px;
@@ -145,7 +145,7 @@ div.body-wrapper main section.projects div a button {
   transition: background-color 0.5s ease;
 }
 div.body-wrapper main section.projects div a button:hover {
-  background-color: rgb(192, 239, 255);
+  background-color: rgb(205, 240, 252);
 }
 
 @media (min-width: 400px) and (max-width: 799px) {
