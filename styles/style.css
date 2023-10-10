@@ -22,6 +22,10 @@
   color: #000000;
 }
 
+#main-content > section.projects > div:nth-child(4) > h2:nth-child(2) {
+  padding-bottom: 30px;
+}
+
 div.body-wrapper {
   min-width: 100%;
   max-width: 100%;
