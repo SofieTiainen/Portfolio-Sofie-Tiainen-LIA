@@ -30,7 +30,9 @@ div.body-wrapper {
     min-width: 100%;
     max-width: 100%;
     background: rgb(230,236,255);
-    background: radial-gradient(circle, rgba(230,236,255,1) 40%, rgba(115,126,139,1) 100%);
+    background-image: url('/assets/images/background.jpg');
+    background-size: cover;
+    // background: radial-gradient(circle, rgba(230,236,255,1) 40%, rgba(115,126,139,1) 100%);
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
